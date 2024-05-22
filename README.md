@@ -9,7 +9,7 @@ To use, just call this:
 
 require_once 'languageMachine.php';
 
-use function Madzae\MadMeterSentiment;
+use function Madzae\MadMeter;
 
 $sentences = 
   "Liverpool menatap era baru seusai ditinggalkan Juergen Klopp. 
@@ -17,7 +17,7 @@ $sentences =
   Ia merupakan satu-satunya manajer sejauh ini yang menjuarai
   Liga Inggris, Liga Champions, Piala FA, dan Piala Liga Inggris.";
 
-MadMeterSentiment($sentences);
+MadMeter($sentences);
 
 ```
 The result throw as JSON
