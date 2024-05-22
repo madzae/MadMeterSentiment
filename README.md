@@ -20,4 +20,6 @@ $sentences =
 MadMeterSentiment($sentences);
 
 ```
-Output as JSON
+The result throw as JSON
+
+Enjoy!
