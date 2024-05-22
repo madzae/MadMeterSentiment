@@ -1,7 +1,7 @@
 <?php
 namespace Madzae;
 
-function MadMeterSentiment($sentence) {
+function MadMeter($sentence) {
     $mysqli = new \mysqli('host', 'user', 'pass', 'database');
     if ($mysqli->connect_error) {
         die("Connection failed: " . $mysqli->connect_error);
